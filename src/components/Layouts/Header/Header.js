@@ -2,7 +2,7 @@ import React from "react";
 import headerLogo from "../../Images/logo.svg";
 import "./Header.scss";
 
-const Header = () => {
+const Header = ({ heading }) => {
   return (
     <div className="header-wrapper">
       <div className="header-bg-image">
@@ -38,7 +38,7 @@ const Header = () => {
           </div>
 
           <div className="header-main-content">
-            <h1 className="header-heading">Top Companies by Market Cap </h1>
+            <h1 className="header-heading">Top Companies by {heading} </h1>
             <p className="header-title">
               openbusinesscouncil Company Directory that makes part of our
               business

@@ -2,14 +2,13 @@ import React from "react";
 import {
   faAngleDown,
   faAngleUp,
-  faArrowDown,
   faArrowUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import infoIcon from "../Images/info.svg";
 import "./Table.scss";
 
-const Table = ({ data }) => {
+const Table = ({ data, heading }) => {
   return (
     <div className="table-wrapper">
       <section className="container">
@@ -35,7 +34,7 @@ const Table = ({ data }) => {
                     <FontAwesomeIcon className="fa-sort" icon={faAngleDown} />
                   </div>
                   <div>
-                    <p className="body-rank"> Operating Margin</p>
+                    <p className="body-rank">{heading}</p>
                   </div>
                 </p>
               </th>
@@ -105,7 +104,9 @@ const Table = ({ data }) => {
                     </div>
                   </td>
                   <td className="Operating-percentage-wrapper">
-                    <p className="percentage">{percentage}</p>
+                    <div className="percentage-wrapper-info">
+                      <p className="percentage">{percentage}</p>
+                    </div>
                     <img className="infoIcon" src={infoIcon} loading="lazy" />
                   </td>
                   <td>

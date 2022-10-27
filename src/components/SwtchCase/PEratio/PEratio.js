@@ -3,10 +3,10 @@ import Pagination from "../../Pagination/Pagination";
 import Table from "../../Table/Table";
 import { data } from "./data";
 
-const PEratio = () => {
+const PEratio = ({ heading }) => {
   return (
     <div>
-      <Table data={data} />
+      <Table data={data} heading={heading} />
       <Pagination />
     </div>
   );

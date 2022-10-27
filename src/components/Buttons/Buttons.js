@@ -6,9 +6,9 @@ const Buttons = ({ handleChange, screen }) => {
     <div className="button-container">
       <div className="buttons-wrapper">
         <button
-          onClick={() => handleChange("MarketCap")}
+          onClick={() => handleChange("Market Cap")}
           className={`${
-            screen === "MarketCap" ? "btn-group-colored " : "btn-group"
+            screen === "Market Cap" ? "btn-group-colored " : "btn-group"
           } `}
         >
           Market Cap
@@ -38,25 +38,25 @@ const Buttons = ({ handleChange, screen }) => {
           Employees
         </button>
         <button
-          onClick={() => handleChange("PEratio")}
+          onClick={() => handleChange("P/E ratio")}
           className={`${
-            screen === "PEratio" ? "btn-group-colored " : "btn-group"
+            screen === "P/E ratio" ? "btn-group-colored " : "btn-group"
           } `}
         >
           P/E ratio
         </button>
         <button
-          onClick={() => handleChange("Dividend")}
+          onClick={() => handleChange("Dividend %")}
           className={`${
-            screen === "Dividend" ? "btn-group-colored " : "btn-group"
+            screen === "Dividend %" ? "btn-group-colored " : "btn-group"
           } `}
         >
           Dividend %
         </button>
         <button
-          onClick={() => handleChange("OperatingMargin")}
+          onClick={() => handleChange("Operating Margin")}
           className={`${
-            screen === "OperatingMargin" ? "btn-group-colored " : "btn-group"
+            screen === "Operating Margin" ? "btn-group-colored " : "btn-group"
           } `}
         >
           Operating Margin

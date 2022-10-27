@@ -6,9 +6,7 @@ import SwtchCase from "./SwtchCase";
 const Main = () => {
   return (
     <>
-      <Header />
       <SwtchCase />
-      <Footer />
     </>
   );
 };

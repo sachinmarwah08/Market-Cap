@@ -136,13 +136,17 @@ thead {
   gap: 0.5rem;
   width: 100%;
 
-  .percentage {
-    background: #ecfdf3;
-    border-radius: 16px;
-    padding: 4px 8px 4px 8px;
-    width: max-content;
-    color: #027a48;
+  .percentage-wrapper-info {
+    width: 5rem;
+    .percentage {
+      background: #ecfdf3;
+      border-radius: 16px;
+      padding: 4px 8px 4px 8px;
+      width: max-content;
+      color: #027a48;
+    }
   }
+
   .infoIcon {
     cursor: pointer;
     width: 12px;
