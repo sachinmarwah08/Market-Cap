@@ -1,0 +1,42 @@
+.searchbar-wrapper {
+  width: 100%;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #0033cc;
+  border-radius: 6px;
+
+  .search-bar-input {
+    width: 100%;
+    border: none;
+    padding: 0.6rem;
+    background-color: transparent;
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0033cc;
+    font-family: "Raleway";
+
+    &::placeholder {
+      color: #0033cc;
+      font-family: "Raleway";
+    }
+  }
+
+  .caret {
+    background: #0033cc;
+    border-radius: 0 0 0.125em 0.125em;
+    margin-bottom: -0.6em;
+    width: 0.25em;
+    height: 1em;
+    transform: translate(0, -1em) rotate(-45deg) translate(0, 0.875em);
+    transform-origin: 50% 0;
+  }
+
+  .searchIcon {
+    position: absolute;
+    right: 0.8rem;
+    top: 0.6rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,189 @@
+.container {
+  border-radius: 8px;
+  border: 1px solid #e4e7ec;
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1),
+    0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+
+table {
+  border-radius: 8px;
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 14px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #667085;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Raleway";
+}
+
+th {
+  text-align: left;
+}
+
+thead {
+  th {
+    background-color: #f9fafb;
+    border-bottom: 1px solid #e4e7ec;
+  }
+}
+
+.body-tr {
+  border-bottom: 1px solid #e4e7ec;
+}
+
+.rank {
+  text-align: center;
+}
+
+.rank-number-head {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  justify-content: center;
+  margin: 0;
+
+  .body-rank {
+    text-align: center;
+    margin: 0;
+  }
+
+  .sort-icon {
+    display: flex;
+    gap: -0.5rem;
+    flex-direction: column;
+
+    .fa-sort {
+      width: 9px;
+      cursor: pointer;
+      height: 9px;
+
+      &:hover {
+        color: #101828;
+      }
+    }
+  }
+}
+
+.rank-number {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  margin: 0;
+
+  .body-rank {
+    text-align: center;
+    margin: 0;
+  }
+
+  .sort-icon {
+    display: flex;
+    gap: -0.5rem;
+    flex-direction: column;
+
+    .fa-sort {
+      width: 9px;
+      cursor: pointer;
+      height: 9px;
+
+      &:hover {
+        color: #101828;
+      }
+    }
+  }
+}
+.table-body-image-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .table-body-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    // border-radius: 50%;
+  }
+
+  .name-text {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+
+    .table-body-image-text-upper {
+      margin: 0;
+      font-weight: 500;
+      font-size: 14px;
+      color: #101828;
+    }
+    .table-body-image-text-lower {
+      margin: 0;
+      font-weight: 400;
+      font-size: 14px;
+      color: #667085;
+    }
+  }
+}
+
+.Operating-percentage-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+
+  .percentage {
+    background: #ecfdf3;
+    border-radius: 16px;
+    padding: 4px 8px 4px 8px;
+    width: max-content;
+    color: #027a48;
+  }
+  .infoIcon {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.dollar {
+  font-weight: 400;
+  font-size: 14px;
+  color: #667085;
+}
+
+.percentage-green {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #ecfdf3;
+  border-radius: 16px;
+  padding: 4px 8px 4px 8px;
+  width: max-content;
+  color: #027a48;
+
+  .fa {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.percentage-red {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fef3f2;
+  border-radius: 16px;
+  padding: 4px 8px 4px 8px;
+  width: max-content;
+  color: #b42318;
+
+  .fa {
+    width: 12px;
+    height: 12px;
+  }
+}

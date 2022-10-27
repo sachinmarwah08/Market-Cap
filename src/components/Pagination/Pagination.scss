@@ -1,0 +1,68 @@
+.pagination-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+
+  .pagination-buttons-wrapper {
+    display: inline-flex;
+    width: max-content;
+    overflow: hidden;
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 1px solid #d0d5dd;
+
+    .pagination-btn-group {
+      border: none;
+      background: transparent;
+      padding: 10px 14px;
+      font-family: "Raleway";
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      margin: 0%;
+      text-align: center;
+      width: 100%;
+      color: #344054;
+
+      .previous-btn {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-family: "Raleway";
+        border: none;
+        margin: 0;
+      }
+      .next-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        font-family: "Raleway";
+        border: none;
+        margin: 0;
+      }
+
+      &:hover {
+        border: none;
+        background: transparent;
+        padding: 10px 16px;
+        font-size: 14px;
+        font-weight: 700;
+        width: 100%;
+        cursor: pointer;
+        font-family: "Raleway";
+        margin: 0%;
+        text-align: center;
+        background: #ecf1fe;
+        margin: 0%;
+        color: #0033cc;
+      }
+    }
+
+    .pagination-btn-group:not(:last-of-type) {
+      padding: 10px 16px;
+      border-right: 1px solid #d0d5dd;
+    }
+  }
+}

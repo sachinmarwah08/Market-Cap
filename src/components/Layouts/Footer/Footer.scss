@@ -1,0 +1,124 @@
+.footer-wrapper {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(265.89deg, #0033cc 58.45%, #000878 137.51%);
+
+  .footer-container {
+    padding: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 0;
+
+    .footer-content {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 1.8rem;
+
+      .footer-left {
+        // width: 100%;
+
+        .footer-about {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 32px;
+          color: #ffffff;
+        }
+
+        .footer-about-title {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          width: 70%;
+          color: #ffffff;
+        }
+      }
+      .footer-right {
+        // width: 100%;
+
+        .footer-contact {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 32px;
+          color: #ffffff;
+        }
+
+        .footer-email {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #ffffff;
+        }
+
+        .footer-social-logo {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+      }
+    }
+  }
+
+  .footer-companies-logo {
+    .footer-company-logo-heading {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      padding-bottom: 1.5rem;
+      color: #ffffff;
+    }
+
+    .collaboration-heading {
+      font-weight: 600;
+      padding-top: 1.5rem;
+      font-size: 16px;
+      line-height: 24px;
+      padding-bottom: 1.5rem;
+      color: #ffffff;
+      margin-top: 2rem;
+    }
+    .all-logos {
+      width: 100%;
+      padding-top: 1rem;
+    }
+  }
+
+  .footer-copyright {
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+    border-top: 1px solid #3360e4;
+    justify-content: space-between;
+
+    .copyright-title {
+      .footer-copy-title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+        padding-left: 8rem;
+      }
+    }
+
+    .privacy {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0;
+      padding-right: 8rem;
+
+      .privacy-title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 !important;
+        color: #ffffff;
+        padding-right: 8rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
